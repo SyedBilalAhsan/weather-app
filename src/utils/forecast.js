@@ -19,9 +19,9 @@ const forecast = (latitude, longitude, callback) => {
         data.weather_descriptions[0] +
           ". It is currently " +
           data.temperature +
-          " degree. There is " +
+          " degree. Feels like " +
           data.feelslike +
-          "% chance of rain."
+          "."
       );
     }
   });
